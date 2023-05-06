@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Slab:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Slab:wght@500&family=Syne+Mono&family=Ubuntu&display=swap');
+body{
+    position: relative;
+    background-color: #393939 !important;
+    
+}
+html, body {
+  overflow-x: hidden;
+}
+
+.row-content-space-between{
+  display: flex !important;
+  justify-content: space-between;
+}
+
+
+
+
+.margin-above{
+  margin-top: 2rem !important;
+}
+
+.margin-req{
+  margin-top: 5rem !important;
+}
+.fullscreen-btn{
+  font-size: 2rem;
+  color: #E2703A;
+}
+
+.fullscreen-btn:hover{
+  color: #fff;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.btn-primary{
+  color:black !important;
+  background-color: #F47340 !important;
+  border-color: #F47340  !important;
+}
+
+.btn-primary:hover{
+  color:white !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.offcanvas{
+  background-color: #393939 !important;
+  color: white;
+  
+}
+
+.subtitle-msg{
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.form-text{
+  color: white !important;
+}
+.tooltip,.tooltip-arrow{
+  opacity: 1 !important;
+  left:50%;
+  transform: translate(-50%, 0);
+}
+
+.tooltip-inner{
+  position: relative;
+}
+.meaning{
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
+.req-msg{
+  border: 1px solid #E2703A;
+  color:#E2703A;
+  margin: 0.75rem 0;
+  opacity: 0;
+  transition: opacity 2s linear;
+}
+
+.req-msg-change{
+  opacity: 1;
+}
+
+.cancel-meaning-icon{
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.list-group{
+  max-height: 12rem;
+  overflow-y: scroll;
+  border: 1px solid #393939;
+  cursor:pointer;
+  
+}
+
+.list-group-item{
+  background-color: #E2703A !important;
+  border: 1px solid #393939 !important;
+}
+
+.list-group-item:hover{
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+.row-content{
+  justify-content: center;
+}
+
+.activelink{
+  background-color: black !important;
+  color: white !important;
+  
+}
+
+.link-btn{
+  position: fixed;
+  right: 0.5rem;
+  top: 0.85rem;
+  font-size: 2rem;
+  color: #1B1A17;
+  cursor: pointer;
+  z-index: 1031;
+}
+
+.play-btn{
+  position: absolute;
+  right: 0;
+  background-color: #fff !important;
+  border-color: #fff  !important;
+  
+}
+
+
+
+
+.play-btn:hover{
+  background-color: #E2703A !important;
+  border-color: #E2703A  !important;
+}
+
+
+.margin-above-below{
+  margin: 4.65rem 0 0.75rem 0 !important;
+}
+
+.upload-style{
+  word-wrap: break-word;
+  color: #fff;
+  text-align: center;
+}
+
+.container-class{
+  position:relative;
+  text-align: center;
+  padding: 2rem 2rem 1rem 2rem;
+  margin-top: 4rem;
+  background-color: #4C4C4C;
+  color: #fff;
+}
+
+.main-box{
+  position: relative;
+}
+
+.name-contact{
+  margin: 1.5rem 0;
+}
+
+.disclaimer{
+  padding: 0rem 1.5rem;
+}
+
+.no-margin-bottom{
+  margin-bottom: 0rem;
+}
+
+.brand-icon{
+  margin: 0rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+.brand-icon:hover{
+  color: #E2703A;
+}
+
+.form-control{
+  display: inline-block !important;
+}
+
+.no-padding{
+  padding: 0 !important;
+}
+
+.fullscreen-height{
+  height: 100%;
+  width: 100%;
+  position:relative;
+  z-index:0;
+}
+
+.video-box{
+  object-fit: fill;
+  height: 25rem;
+  width: 100%;
+  position:relative;
+  z-index:0;
+}
+
+::cue{
+  color:transparent;
+  background-color: transparent;
+}
+
+.overlay {
+    left: 50%;
+    text-align: center;
+    font-size: 2vw;
+    transform: translate(-50%, 0);
+    position:absolute;
+    color: white;
+    bottom:2.2rem;
+    z-index:1000;
+}
+
+.container{
+  margin-left: 0 !important;
+}
+
+.heading{
+  font-family: 'Syne Mono', monospace;
+  padding: 0 !important;
+  background-color: #F47340;
+}
+
+.navbar-brand{
+  font-size: 2rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .offcanvas{
+    width: 70% !important;
+  }
+
+  .video-box{
+    height: 12rem;
+  }
+
+  .name-contact{
+    font-size: 0.75rem;
+  }
+
+  .disclaimer{
+    font-size: 0.75rem;
+  }
+ 
+}
+
